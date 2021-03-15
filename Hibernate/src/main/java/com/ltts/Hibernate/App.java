@@ -17,7 +17,7 @@ public class App
         Transaction t = session.beginTransactio();
         Employee e = new Employee();
         e.setEmpid(101);
-        e.setEname("subbu");
+        e.setEname("vikram");
         e.setAddress("Mysore");
         t.commit();
         session.save(e);
